@@ -3,6 +3,8 @@ API de ocultação de informações baseando-se em esteganografia.
 
 Esse recurso apresenta duas funções principais: **transliteração** e **inserção de caracteres invisíveis**, que podem ser aplicadas em diferentes cenários, como:
 
+<details>
+<summary>Exemplos</summary>
 
 * **Ofuscação de senhas:** Substituir caracteres por equivalentes visuais dificulta ataques de keylogging ou brute force.
 
@@ -21,3 +23,5 @@ Esse recurso apresenta duas funções principais: **transliteração** e **inser
 * **Ofuscação de conteúdo para aprendizado de máquinas:** Enganar modelos de machine learning que analisam texto ao utilizar caracteres invisíveis ou semelhantes.
 
 * **Evitar edição automática de documentos:** Inserir caracteres invisíveis em documentos digitais para prevenir que editores automáticos ou softwares de revisão alterem trechos específicos.
+
+</details>
