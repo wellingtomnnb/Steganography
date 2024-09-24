@@ -1,0 +1,41 @@
+latim_symbol,destination_symbol,description
+A,А,Cirílico
+B,В,Cirílico
+C,С,Cirílico
+E,Е,Cirílico
+H,Н,Cirílico
+I,Ι,Grego
+J,Ј,Cirílico
+K,Κ,Grego
+M,М,Cirílico
+N,Ν,Grego
+O,О,Cirílico
+P,Р,Cirílico
+S,Ѕ,Cirílico
+T,Т,Cirílico
+X,Χ,Grego
+Y,Υ,Grego
+Z,Ζ,Grego
+a,а,Cirílico
+c,с,Cirílico
+e,е,Cirílico
+i,і,Cirílico
+o,о,Cirílico
+p,р,Cirílico
+x,х,Cirílico
+y,у,Cirílico
+!,ǃ,Exclamation mark (Latim)
+"""",ʺ,Quotation mark (Latim)
+',’,Apostrophe (Latim)
+(,⟮,Mathematical left white square bracket (Grego)
+),⟯,Mathematical right white square bracket (Grego)
+*,✱,"Star (Grego, similar to Greek letter 'Ϛ')"
+",",‚,Single low-9 quotation mark (Latim)
+-,−,Minus sign (Matemático)
+.,․,One dot leader (Grego)
+/,∕,Division slash (Matemático)
+:,∶,Ratio (Matemático)
+;,;,Greek question mark (Grego)
+@,＠,Fullwidth at sign (Grego)
+\,∖,Set minus (Grego)
+|,ǀ,Latin letter dental click (Cirílico)
