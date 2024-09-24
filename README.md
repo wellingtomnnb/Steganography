@@ -1,7 +1,5 @@
-# Steganography
-API de ocultação de informações baseando-se em esteganografia.
-
-Esse recurso apresenta duas funções principais: **transliteração** e **inserção de caracteres invisíveis**, que podem ser aplicadas em diferentes cenários, como:
+# Steganography API
+Uma API simples construída com FastAPI que utiliza técnicas de **esteganografia** para realizar transliterações e inserções de caracteres invisíveis em textos. Este projeto foi desenvolvido para demonstrar a funcionalidade de esteganografia em texto, que podem ser aplicadas em diferentes cenários, como:
 
 <details>
 <summary>Exemplos</summary>
@@ -25,3 +23,63 @@ Esse recurso apresenta duas funções principais: **transliteração** e **inser
 * **Evitar edição automática de documentos:** Inserir caracteres invisíveis em documentos digitais para prevenir que editores automáticos ou softwares de revisão alterem trechos específicos.
 
 </details>
+
+## Estrutura do Projeto
+```
+/app 
+  ├── init.py 
+  ├── api.py 
+  ├── main.py 
+/data 
+  └── lexico.csv 
+Dockerfile 
+docker-compose.yml
+```
+
+
+## Tecnologias Utilizadas
+
+- **Python**: Linguagem de programação principal.
+- **FastAPI**: Framework para construção da API.
+- **Pandas**: Para manipulação de dados.
+- **Docker**: Para containerização da aplicação.
+
+## Requisitos
+
+- Python 3.9 ou superior
+- Docker e Docker Compose
+
+## Instalação
+
+1. Clone o repositório:
+
+   ```bash
+   git clone https://github.com/wellingtomnnb/Steganography
+   cd Steganography
+2. Crie e inicie os contêineres com Docker Compose:
+   ```bash
+    docker-compose up --build
+## Uso
+Após iniciar os contêineres, a API estará disponível em http://localhost:8000. Você pode usar ferramentas como Postman ou CURL para interagir com a API.
+
+### Endpoints
+*Prefixo: /v1/*
+* **POST /steganography**
+  * Descrição: Translitera um texto e inserir caracteres invisíveis.
+  * Corpo da Requisição:
+    ```bash
+    { "text": "Texto para ser transliterado." }
+  * Resposta:
+    ```bash
+    { "text": "Texto para ser transliterado." } 
+
+## Contribuição
+Sinta-se à vontade para enviar um pull request ou abrir uma issue se encontrar algum problema ou tiver sugestões para melhorias.
+
+### Notas sobre o README
+
+- **Estrutura do Projeto**: Inclui a estrutura do diretório para que os desenvolvedores possam entender rapidamente onde encontrar os arquivos.
+- **Tecnologias Utilizadas**: Indica as principais tecnologias que estão sendo utilizadas.
+- **Requisitos e Instalação**: Fornece informações claras sobre como configurar o projeto.
+- **Uso e Endpoints**: Descreve como interagir com a API, incluindo um exemplo de requisição e resposta.
+
