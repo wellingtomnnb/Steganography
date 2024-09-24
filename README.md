@@ -75,11 +75,3 @@ Após iniciar os contêineres, a API estará disponível em http://localhost:800
 
 ## Contribuição
 Sinta-se à vontade para enviar um pull request ou abrir uma issue se encontrar algum problema ou tiver sugestões para melhorias.
-
-### Notas sobre o README
-
-- **Estrutura do Projeto**: Inclui a estrutura do diretório para que os desenvolvedores possam entender rapidamente onde encontrar os arquivos.
-- **Tecnologias Utilizadas**: Indica as principais tecnologias que estão sendo utilizadas.
-- **Requisitos e Instalação**: Fornece informações claras sobre como configurar o projeto.
-- **Uso e Endpoints**: Descreve como interagir com a API, incluindo um exemplo de requisição e resposta.
-
